@@ -1,1 +1,856 @@
-"Hello World" 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Dashboard - FIAT LUX Bootstrap Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: FIAT LUX - v2.2.2
+  * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+
+    <div class="d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.png" alt="">
+        <span class="d-none d-lg-block">FIAT LUX</span>
+      </a>
+      <i class="bi bi-list toggle-sidebar-btn"></i>
+    </div><!-- End Logo -->
+
+    <div class="search-bar">
+      <form class="search-form d-flex align-items-center" method="POST" action="#">
+        <input type="text" name="query" placeholder="Search" title="Enter search keyword">
+        <button type="submit" title="Search"><i class="bi bi-search"></i></button>
+      </form>
+    </div><!-- End Search Bar -->
+
+    <nav class="header-nav ms-auto">
+      <ul class="d-flex align-items-center">
+
+        <li class="nav-item d-block d-lg-none">
+          <a class="nav-link nav-icon search-bar-toggle " href="#">
+            <i class="bi bi-search"></i>
+          </a>
+        </li>
+        <!-- End Search Icon -->
+        <li class="nav-item dropdown pe-3">
+          <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+            <!-- <img src="assets/img/profile-img.jpg" alt="Profile" class="rounded-circle"> -->
+            <span class="d-none d-md-block dropdown-toggle ps-2">Fiat Group</span>
+          </a><!-- End Profile Iamge Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+
+            <!-- <li class="dropdown-header">
+              <h6>Kevin Anderson</h6>
+              <span>Web Designer</span>
+            </li> -->
+
+            <!-- <li>
+              <hr class="dropdown-divider">
+            </li> -->
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="#">
+                <i class="bi bi-person"></i>
+                <span>Bonian Jia</span>
+              </a>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="#">
+                <i class="bi bi-person"></i>
+                <span>Jia Du</span>
+              </a>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="#">
+                <i class="bi bi-person"></i>
+                <span>Shanshan Zhu</span>
+              </a>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="#">
+                <i class="bi bi-person"></i>
+                <span>Miaomiao Lyu</span>
+              </a>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="#">
+                <i class="bi bi-person"></i>
+                <span>Jiecheng Lu</span>
+              </a>
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="#">
+                <i class="bi bi-person"></i>
+                <span>Xu Han</span>
+              </a>
+            </li>
+          </ul><!-- End Profile Dropdown Items -->
+        </li><!-- End Profile Nav -->
+
+      </ul>
+    </nav><!-- End Icons Navigation -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Sidebar ======= -->
+  <aside id="sidebar" class="sidebar">
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">
+          <i class="bi bi-grid"></i>
+          <span>Recommend Dashboard</span>
+        </a>
+      </li><!-- End Dashoard Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="gameinformation.html">
+          <i class="bi bi-layout-text-window-reverse"></i>
+          <span>Game Information</span>
+        </a>
+      </li><!-- End Game Information Page Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="relationshipmap.html">
+          <i class="bi bi-bar-chart"></i>
+          <span>Relationship Map</span>
+        </a>
+      </li><!-- End relationshipmap Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="topgame.html">
+          <i class="bi bi-menu-button-wide"></i>
+          <span>Top Game Map</span>
+        </a>
+      </li><!-- End topgame Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="yearandtag.html">
+          <i class="bi bi-journal-text"></i>
+          <span>Year and Tag Map</span>
+        </a>
+      </li><!-- End yearandtag Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="producer.html">
+          <i class="bi bi-gem"></i>
+          <span>Producer Map</span>
+        </a>
+      </li><!-- End producer Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="comparison.html">
+          <i class="bi bi-card-list"></i>
+          <span>Comparison Map</span>
+        </a>
+      </li><!-- End comparison Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="averagetime.html">
+          <i class="bi bi-file-code"></i>
+          <span>Averagetime Map</span>
+        </a>
+      </li><!-- End averagetime Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="categoriescloud.html">
+          <i class="bi bi-bar-chart-line-fill"></i>
+          <span>Categoriescloud Map</span>
+        </a>
+      </li><!-- End categoriescloud Nav -->
+    </ul>
+
+  </aside><!-- End Sidebar-->
+
+  <main id="main" class="main">
+
+    <div class="pagetitle">
+      <h1>Recommend Dashboard</h1>
+      <nav>
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item active">Recommend Dashboard</li>
+        </ol>
+      </nav>
+    </div><!-- End Page Title -->
+
+    <section class="section dashboard">
+      <div class="row">
+
+        <!-- Left side columns -->
+        <div class="col-lg-8">
+          <div class="row">
+
+            <!-- first Card -->
+            <div class="col-xxl-4 col-md-6">
+
+              <div class="card info-card sales-card">
+                <div class="card-body">
+                  <h5 class="card-title" title="PUBG: BATTLEGROUNDS">PUBG: BATTLEGROUNDS</h5>
+
+                  <div class="d-flex align-items-center">
+                    <div class="post-item clearfix">
+                      <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/578080/header.jpg?t=1648600221"
+                        style="width:80px;height:60px;">
+                    </div>
+                    <div class="ps-3">
+                      <h6>$29.99</h6>
+                      <span class="text-success small pt-1 fw-bold">12%</span> <span
+                        class="text-muted small pt-2 ps-1">Good Rate</span>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div><!-- End first Card -->
+
+            <!-- second Card -->
+            <div class="col-xxl-4 col-md-6">
+              <div class="card info-card revenue-card">
+
+
+                <div class="card-body">
+                  <h5 class="card-title" title="Counter-Strike: Global Offensive">Counter-Strike: Global Offensive</h5>
+
+                  <div class="d-flex align-items-center">
+                    <div class="post-item clearfix">
+                      <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/730/header.jpg?t=1648598293"
+                        style="width:80px;height:60px;">
+                    </div>
+                    <div class="ps-3">
+                      <h6>$14.99</h6>
+                      <span class="text-success small pt-1 fw-bold">15%</span> <span
+                        class="text-muted small pt-2 ps-1">Good Rate</span>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div><!-- End second Card -->
+
+            <!-- third Card -->
+            <div class="col-xxl-4 col-xl-12">
+
+              <div class="card info-card customers-card">
+
+                <div class="card-body">
+                  <h5 class="card-title" title="">Apex Legends</h5>
+
+                  <div class="d-flex align-items-center">
+                    <div class="post-item clearfix">
+                      <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1172470/header.jpg?t=1648582841"
+                        style="width:80px;height:60px;">
+                    </div>
+                    <div class="ps-3">
+                      <h6>$39.99</h6>
+                      <span class="text-danger small pt-1 fw-bold">12%</span> 
+                      <span class="text-muted small pt-2 ps-1">Good Rate</span>
+
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+            </div><!-- End third Card -->
+
+            <!-- more game Sales -->
+            <div class="col-12">
+              <div class="card recent-sales overflow-auto">
+
+                <div class="card-body">
+                  <h5 class="card-title">Most Recommend games ranking</h5>
+
+                  <!-- <table class="table table-borderless datatable" id="myTable">
+                    <thead>
+                      <tr>
+                        <th scope="col">#ID</th>
+                        <th scope="col">Game</th>
+                        <th scope="col">Reviewers</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Good Rate</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>#1234</td>
+                        <td>PUBG: BATTLEGROUNDS</td>
+                        <td>3,257,248</td>
+                        <td>$29.99</td>
+                        <td><span class="badge bg-danger">12% increase</span></td>
+                      </tr>
+                      <tr>
+                        <th scope="row"><a href="#">#730</a></th>
+                        <td>Counter-Strike: Global Offensive</td>
+                        <td>1,308,963</td>
+                        <td>$14.99</td>
+                        <td><span class="badge bg-danger">15% increase</span></td>
+                      </tr>
+                      <tr>
+                        <th scope="row"><a href="#">#1172470</a></th>
+                        <td>Apex Legends</td>
+                        <td>393,116</td>
+                        <td>$39.99</td>
+                        <td><span class="badge bg-success">12% decrease</span></td>
+                      </tr>
+                      <tr>
+                        <th scope="row"><a href="#">#1203220</a></th>
+                        <td>NARAKA: BLADEPOINT</td>
+                        <td>187,468</td>
+                        <td>Free</td>
+                        <td><span class="badge bg-warning">No Change</span></td>
+                      </tr>
+                      <tr>
+                        <th scope="row"><a href="#">#271590</a></th>
+                        <td>Grand Theft Auto V</td>
+                        <td>364,548</td>
+                        <td>$9.28</td>
+                        <td><span class="badge bg-success">50% decrease</span></td>
+                      </tr>
+                    </tbody>
+                  </table> -->
+
+                </div>
+
+              </div>
+            </div><!-- End more game Sales -->
+
+          </div>
+        </div><!-- End Left side columns -->
+
+        <!-- Right side columns -->
+        <div class="col-lg-4">
+
+          <!-- News & Updates Traffic -->
+          <div class="card">
+            <div class="filter">
+              <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+              <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                <li class="dropdown-header text-start">
+                  <h6>Filter</h6>
+                </li>
+
+                <li><a class="dropdown-item" href="#">Today</a></li>
+                <li><a class="dropdown-item" href="#">This Month</a></li>
+                <li><a class="dropdown-item" href="#">This Year</a></li>
+              </ul>
+            </div>
+
+            <div class="card-body pb-0">
+              <h5 class="card-title">Game Description</h5>
+
+              <div class="news">
+                <div class="post-item clearfix">
+                  <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/578080/header.jpg?t=1648600221" alt="">
+                  <h4><a href="#">PUBG: BATTLEGROUNDS</a></h4>
+                  <p>1114012 like | 878408 dislike</p>
+                </div>
+
+                <table class="table">
+                  <thead></thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">Game ID</th>
+                      <td>578080</td>
+                    </tr>
+
+                    <tr class="table-primary">
+                      <th scope="row">Developer</th>
+                      <td>KRAFTON, Inc.</td>
+                    </tr>
+                    <tr class="table-secondary">
+                      <th scope="row">Publisher</th>
+                      <td>KRAFTON, Inc.</td>
+                    </tr>
+                    <tr class="table-success">
+                      <th scope="row">Genres</th>
+                      <td>14368003</td>
+                    </tr>
+                    <tr class="table-danger">
+                      <th scope="row">Price</th>
+                      <td>$ 0.0</td>
+                    </tr>
+                    <tr class="table-warning">
+                      <th scope="row">Platforms</th>
+                      <td> windows</td>
+                    </tr>
+                    <!-- <tr class="table-dark">
+                      <th scope="row">Dark</th>
+                      <td>Cell</td>
+                      <td>Cell</td>
+                    </tr> -->
+                  </tbody>
+                </table>
+
+                <h5 class="card-title">Related Game</h5>
+
+                <div class="post-item clearfix">
+                  <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/433850/header.jpg?t=1648598176" alt="">
+                  <h4><a href="#">Z1 Battle Royale</a></h4>
+                  <p>115622 like | 92994 dislike</p>
+                </div>
+
+                <div class="post-item clearfix">
+                  <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1203220/header.jpg?t=1648681306" alt="">
+                  <h4><a href="#">NARAKA: BLADEPOINT</a></h4>
+                  <p>76317 like | 19815 dislike</p>
+                </div>
+              </div><!-- End sidebar recent posts-->
+
+            </div>
+          </div><!-- End News & Updates -->
+        </div><!-- End Right side columns -->
+
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <div class="copyright">
+      &copy; Copyright <strong><span>FIAT LUX</span></strong>. All Rights Reserved
+    </div>
+    <div class="credits">
+      <!-- All the links in the footer should remain intact. -->
+      <!-- You can delete the links only if you purchased the pro version. -->
+      <!-- Licensing information: https://bootstrapmade.com/license/ -->
+      <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/ -->
+      Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/chart.js/chart.min.js"></script>
+  <script src="assets/vendor/echarts/echarts.min.js"></script>
+  <script src="assets/vendor/quill/quill.min.js"></script>
+  <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+  <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <!-- <script>
+    var div_first = document.querySelector("#main > section > div > div.col-lg-8 > div > div:nth-child(1) > div")
+    var image1 = document.querySelector("#main > section > div > div.col-lg-8 > div > div:nth-child(1) > div > div.card-body > div > div.post-item.clearfix > img")
+    var image2 = document.querySelector("#main > section > div > div.col-lg-8 > div > div:nth-child(2) > div > div.card-body > div > div.post-item.clearfix > img")
+    var image3 = document.querySelector("#main > section > div > div.col-lg-8 > div > div.col-xxl-4.col-xl-12 > div > div.card-body > div > div.post-item.clearfix > img")
+    //console.log(image1.src)
+    var des_image = document.querySelector("#main > section > div > div.col-lg-4 > div:nth-child(1) > div.card-body.pb-0 > div > div:nth-child(1) > img")
+    
+    div_first.onclick = function (e) {
+      if (div_first.style.border == "2px solid grey") {
+        div_first.style.border = ""
+      }
+      else {
+        div_first.style.border = "2px solid grey";
+      }
+      div_second.style.border = "";
+      div_third.style.border = "";
+
+      des_image.src = image1.src
+
+    }
+
+    var div_second = document.querySelector("#main > section > div > div.col-lg-8 > div > div:nth-child(2) > div")
+    div_second.onclick = function (e) {
+      if (div_second.style.border == "2px solid grey") {
+        div_second.style.border = ""
+      }
+      else {
+        div_second.style.border = "2px solid grey";
+      }
+      div_first.style.border = "";
+      div_second.style.border = "2px solid grey";
+      div_third.style.border = "";
+
+      des_image.src = image2.src
+    }
+
+    var div_third = document.querySelector("#main > section > div > div.col-lg-8 > div > div.col-xxl-4.col-xl-12 > div")
+    div_third.onclick = function (e) {
+      if (div_third.style.border == "2px solid grey") {
+        div_third.style.border = ""
+      }
+      else {
+        div_third.style.border = "2px solid grey";
+      }
+      div_first.style.border = "";
+      div_second.style.border = "";
+      div_third.style.border = "2px solid grey";
+
+      des_image.src = image3.src
+    }
+
+  </script> -->
+
+  <script>
+    var httpRequest = new XMLHttpRequest();//第一步：创建需要的对象
+    httpRequest.open('get', "static/steam3.json", true); //第二步：打开连接
+    httpRequest.send();
+
+    httpRequest.onreadystatechange = function () {//请求后的回调接口，可将请求成功后要执行的程序写在其中
+          if (httpRequest.readyState == 4 && httpRequest.status == 200) {//验证请求是否发送成功
+              var steamjson = httpRequest.responseText;//获取到服务端返回的数据
+              //console.log(steamjson);
+              steamjson = JSON.parse(steamjson)
+              //console.log(steamjson.nodes[0].name)
+              // name
+              firstname = document.querySelector("#main > section > div > div.col-lg-8 > div > div:nth-child(1) > div > div > h5")
+              secondname = document.querySelector("#main > section > div > div.col-lg-8 > div > div:nth-child(2) > div > div > h5")
+              thirdname = document.querySelector("#main > section > div > div.col-lg-8 > div > div:nth-child(3) > div > div > h5")
+              //console.log(firstname.innerHTML)
+              firstname.innerHTML = steamjson.nodes[0].name
+              secondname.innerHTML = steamjson.nodes[1].name
+              thirdname.innerHTML = steamjson.nodes[2].name
+
+              // price
+              firstprice = document.querySelector("#main > section > div > div.col-lg-8 > div > div:nth-child(1) > div > div > div > div.ps-3 > h6")
+              secondprice = document.querySelector("#main > section > div > div.col-lg-8 > div > div:nth-child(2) > div > div > div > div.ps-3 > h6")
+              thirdprice = document.querySelector("#main > section > div > div.col-lg-8 > div > div:nth-child(3) > div > div > div > div.ps-3 > h6")
+              firstprice.innerHTML = "$" + steamjson.nodes[0].price
+              secondprice.innerHTML = "$" + steamjson.nodes[1].price
+              thirdprice.innerHTML = "$" + steamjson.nodes[2].price
+
+              //good rate
+              firstgoodrate = document.querySelector("#main > section > div > div.col-lg-8 > div > div:nth-child(1) > div > div > div > div.ps-3 > span.text-success.small.pt-1.fw-bold")
+              secondgoodrate = document.querySelector("#main > section > div > div.col-lg-8 > div > div:nth-child(2) > div > div > div > div.ps-3 > span.text-success.small.pt-1.fw-bold")
+              thirdgoodrate = document.querySelector("#main > section > div > div.col-lg-8 > div > div.col-xxl-4.col-xl-12 > div > div > div > div.ps-3 > span.text-danger.small.pt-1.fw-bold")
+              //console.log(typeof(steamjson.nodes[0].goodrate))
+              firstgoodrate.innerHTML = steamjson.nodes[0].goodrate.toFixed(2) + "%"
+              secondgoodrate.innerHTML = steamjson.nodes[1].goodrate.toFixed(2) + "%"
+              thirdgoodrate.innerHTML = steamjson.nodes[2].goodrate.toFixed(2) + "%"
+
+              firstgoodratecolor = document.querySelector("#main > section > div > div.col-lg-8 > div > div:nth-child(1) > div > div > div > div.ps-3 > span.text-success.small.pt-1.fw-bold")
+              secondgoodrate = document.querySelector("#main > section > div > div.col-lg-8 > div > div:nth-child(2) > div > div > div > div.ps-3 > span.text-success.small.pt-1.fw-bold")
+              thirdgoodrate = document.querySelector("#main > section > div > div.col-lg-8 > div > div.col-xxl-4.col-xl-12 > div > div > div > div.ps-3 > span.text-danger.small.pt-1.fw-bold")
+              //console.log(thirdgoodrate.className)
+
+              if (steamjson.nodes[0].goodrate.toFixed(2) > 0.5){
+                firstgoodratecolor.setAttribute("class","text-success small pt-1 fw-bold")
+              } else {
+                firstgoodratecolor.setAttribute("class","text-danger small pt-1 fw-bold")
+              }
+              if (steamjson.nodes[1].goodrate.toFixed(2) > 0.5){
+                secondgoodrate.setAttribute("class","text-success small pt-1 fw-bold")
+              } else {
+                secondgoodrate.setAttribute("class","text-danger small pt-1 fw-bold")
+              }
+              if (steamjson.nodes[3].goodrate.toFixed(2) > 0.5){
+                thirdgoodrate.setAttribute("class","text-success small pt-1 fw-bold")
+              } else {
+                thirdgoodrate.setAttribute("class","text-danger small pt-1 fw-bold")
+              }
+
+              //right detailed description
+              rightname = document.querySelector("#main > section > div > div.col-lg-4 > div > div.card-body.pb-0 > div > div:nth-child(1) > h4 > a")
+              rightname.innerHTML = firstname.innerHTML
+
+              rightgameid = document.querySelector("#main > section > div > div.col-lg-4 > div > div.card-body.pb-0 > div > table > tbody > tr:nth-child(1) > td")
+              //console.log(gameid)
+              rightgameid.innerHTML = steamjson.nodes[0].id
+
+              rightdeveloper = document.querySelector("#main > section > div > div.col-lg-4 > div > div.card-body.pb-0 > div > table > tbody > tr.table-primary > td")
+              rightdeveloper.innerHTML = steamjson.nodes[0].developer
+
+
+              rightpublisher = document.querySelector("#main > section > div > div.col-lg-4 > div > div.card-body.pb-0 > div > table > tbody > tr.table-secondary > td")
+              rightpublisher.innerHTML = steamjson.nodes[0].publisher
+
+
+              rightgenres = document.querySelector("#main > section > div > div.col-lg-4 > div > div.card-body.pb-0 > div > table > tbody > tr.table-success > td")
+              rightgenres.innerHTML = steamjson.nodes[0].genres
+              
+              rightprice = document.querySelector("#main > section > div > div.col-lg-4 > div > div.card-body.pb-0 > div > table > tbody > tr.table-danger > td")
+              rightprice.innerHTML = "$ " + steamjson.nodes[0].price
+              
+              rightplatform = document.querySelector("#main > section > div > div.col-lg-4 > div > div.card-body.pb-0 > div > table > tbody > tr.table-warning > td")
+              rightplatform.innerHTML = steamjson.nodes[0].platforms
+
+              //like and dislike
+              rightlikeanddislike = document.querySelector("#main > section > div > div.col-lg-4 > div > div.card-body.pb-0 > div > div:nth-child(1) > p")
+              rightlikeanddislike.innerHTML = steamjson.nodes[0].positive_ratings + " like" + " | " + steamjson.nodes[0].negative_ratings + " dislike"
+
+
+              var div_first = document.querySelector("#main > section > div > div.col-lg-8 > div > div:nth-child(1) > div")
+              var image1 = document.querySelector("#main > section > div > div.col-lg-8 > div > div:nth-child(1) > div > div.card-body > div > div.post-item.clearfix > img")
+              var image2 = document.querySelector("#main > section > div > div.col-lg-8 > div > div:nth-child(2) > div > div.card-body > div > div.post-item.clearfix > img")
+              var image3 = document.querySelector("#main > section > div > div.col-lg-8 > div > div.col-xxl-4.col-xl-12 > div > div.card-body > div > div.post-item.clearfix > img")
+              //console.log(image1.src)
+              var des_image = document.querySelector("#main > section > div > div.col-lg-4 > div:nth-child(1) > div.card-body.pb-0 > div > div:nth-child(1) > img")
+              
+              div_first.onclick = function (e) {
+                if (div_first.style.border == "2px solid grey") {
+                  div_first.style.border = ""
+                }
+                else {
+                  div_first.style.border = "2px solid grey";
+                }
+                div_second.style.border = "";
+                div_third.style.border = "";
+
+                des_image.src = image1.src
+
+                //right detailed description
+                rightname = document.querySelector("#main > section > div > div.col-lg-4 > div > div.card-body.pb-0 > div > div:nth-child(1) > h4 > a")
+                rightname.innerHTML = firstname.innerHTML
+
+                rightgameid = document.querySelector("#main > section > div > div.col-lg-4 > div > div.card-body.pb-0 > div > table > tbody > tr:nth-child(1) > td")
+                //console.log(gameid)
+                rightgameid.innerHTML = steamjson.nodes[0].id
+
+                rightdeveloper = document.querySelector("#main > section > div > div.col-lg-4 > div > div.card-body.pb-0 > div > table > tbody > tr.table-primary > td")
+                rightdeveloper.innerHTML = steamjson.nodes[0].developer
+
+
+                rightpublisher = document.querySelector("#main > section > div > div.col-lg-4 > div > div.card-body.pb-0 > div > table > tbody > tr.table-secondary > td")
+                rightpublisher.innerHTML = steamjson.nodes[0].publisher
+
+
+                rightgenres = document.querySelector("#main > section > div > div.col-lg-4 > div > div.card-body.pb-0 > div > table > tbody > tr.table-success > td")
+                rightgenres.innerHTML = steamjson.nodes[0].genres
+                
+                rightprice = document.querySelector("#main > section > div > div.col-lg-4 > div > div.card-body.pb-0 > div > table > tbody > tr.table-danger > td")
+                rightprice.innerHTML = "$ " + steamjson.nodes[0].price
+                
+                rightplatform = document.querySelector("#main > section > div > div.col-lg-4 > div > div.card-body.pb-0 > div > table > tbody > tr.table-warning > td")
+                rightplatform.innerHTML = steamjson.nodes[0].platforms
+
+                //like and dislike
+                rightlikeanddislike = document.querySelector("#main > section > div > div.col-lg-4 > div > div.card-body.pb-0 > div > div:nth-child(1) > p")
+                rightlikeanddislike.innerHTML = steamjson.nodes[0].positive_ratings + " like" + " | " + steamjson.nodes[0].negative_ratings + " dislike"
+
+              }
+
+              var div_second = document.querySelector("#main > section > div > div.col-lg-8 > div > div:nth-child(2) > div")
+              div_second.onclick = function (e) {
+                if (div_second.style.border == "2px solid grey") {
+                  div_second.style.border = ""
+                }
+                else {
+                  div_second.style.border = "2px solid grey";
+                }
+                div_first.style.border = "";
+                div_second.style.border = "2px solid grey";
+                div_third.style.border = "";
+
+                des_image.src = image2.src
+
+                //right detailed description
+                rightname = document.querySelector("#main > section > div > div.col-lg-4 > div > div.card-body.pb-0 > div > div:nth-child(1) > h4 > a")
+                rightname.innerHTML = secondname.innerHTML
+
+                rightgameid = document.querySelector("#main > section > div > div.col-lg-4 > div > div.card-body.pb-0 > div > table > tbody > tr:nth-child(1) > td")
+                //console.log(gameid)
+                rightgameid.innerHTML = steamjson.nodes[1].id
+
+                rightdeveloper = document.querySelector("#main > section > div > div.col-lg-4 > div > div.card-body.pb-0 > div > table > tbody > tr.table-primary > td")
+                rightdeveloper.innerHTML = steamjson.nodes[1].developer
+
+
+                rightpublisher = document.querySelector("#main > section > div > div.col-lg-4 > div > div.card-body.pb-0 > div > table > tbody > tr.table-secondary > td")
+                rightpublisher.innerHTML = steamjson.nodes[1].publisher
+
+
+                rightgenres = document.querySelector("#main > section > div > div.col-lg-4 > div > div.card-body.pb-0 > div > table > tbody > tr.table-success > td")
+                rightgenres.innerHTML = steamjson.nodes[1].genres
+                
+                rightprice = document.querySelector("#main > section > div > div.col-lg-4 > div > div.card-body.pb-0 > div > table > tbody > tr.table-danger > td")
+                rightprice.innerHTML = "$ " + steamjson.nodes[1].price
+                
+                rightplatform = document.querySelector("#main > section > div > div.col-lg-4 > div > div.card-body.pb-0 > div > table > tbody > tr.table-warning > td")
+                rightplatform.innerHTML = steamjson.nodes[1].platforms
+
+                //like and dislike
+                rightlikeanddislike = document.querySelector("#main > section > div > div.col-lg-4 > div > div.card-body.pb-0 > div > div:nth-child(1) > p")
+                rightlikeanddislike.innerHTML = steamjson.nodes[1].positive_ratings + " like" + " | " + steamjson.nodes[1].negative_ratings + " dislike"
+
+              }
+
+              var div_third = document.querySelector("#main > section > div > div.col-lg-8 > div > div.col-xxl-4.col-xl-12 > div")
+              div_third.onclick = function (e) {
+                if (div_third.style.border == "2px solid grey") {
+                  div_third.style.border = ""
+                }
+                else {
+                  div_third.style.border = "2px solid grey";
+                }
+                div_first.style.border = "";
+                div_second.style.border = "";
+                div_third.style.border = "2px solid grey";
+
+                des_image.src = image3.src
+
+                //right detailed description
+                rightname = document.querySelector("#main > section > div > div.col-lg-4 > div > div.card-body.pb-0 > div > div:nth-child(1) > h4 > a")
+                rightname.innerHTML = thirdname.innerHTML
+
+                rightgameid = document.querySelector("#main > section > div > div.col-lg-4 > div > div.card-body.pb-0 > div > table > tbody > tr:nth-child(1) > td")
+                //console.log(gameid)
+                rightgameid.innerHTML = steamjson.nodes[2].id
+
+                rightdeveloper = document.querySelector("#main > section > div > div.col-lg-4 > div > div.card-body.pb-0 > div > table > tbody > tr.table-primary > td")
+                rightdeveloper.innerHTML = steamjson.nodes[2].developer
+
+
+                rightpublisher = document.querySelector("#main > section > div > div.col-lg-4 > div > div.card-body.pb-0 > div > table > tbody > tr.table-secondary > td")
+                rightpublisher.innerHTML = steamjson.nodes[2].publisher
+
+
+                rightgenres = document.querySelector("#main > section > div > div.col-lg-4 > div > div.card-body.pb-0 > div > table > tbody > tr.table-success > td")
+                rightgenres.innerHTML = steamjson.nodes[2].genres
+                
+                rightprice = document.querySelector("#main > section > div > div.col-lg-4 > div > div.card-body.pb-0 > div > table > tbody > tr.table-danger > td")
+                rightprice.innerHTML = "$ " + steamjson.nodes[2].price
+                
+                rightplatform = document.querySelector("#main > section > div > div.col-lg-4 > div > div.card-body.pb-0 > div > table > tbody > tr.table-warning > td")
+                rightplatform.innerHTML = steamjson.nodes[2].platforms
+
+                //like and dislike
+                rightlikeanddislike = document.querySelector("#main > section > div > div.col-lg-4 > div > div.card-body.pb-0 > div > div:nth-child(1) > p")
+                rightlikeanddislike.innerHTML = steamjson.nodes[2].positive_ratings + " like" + " | " + steamjson.nodes[2].negative_ratings + " dislike"
+
+              }
+
+              //related game
+              firstrelatedgamename = document.querySelector("#main > section > div > div.col-lg-4 > div > div.card-body.pb-0 > div > div:nth-child(4) > h4 > a")
+              firstrelatedgamename.innerHTML = steamjson.nodes[3].name
+              firstrelatedgamelikeanddislike = document.querySelector("#main > section > div > div.col-lg-4 > div > div.card-body.pb-0 > div > div:nth-child(4) > p")
+              firstrelatedgamelikeanddislike.innerHTML = steamjson.nodes[3].positive_ratings + " like" + " | " + steamjson.nodes[3].negative_ratings + " dislike"
+
+              secondrelatedgamename = document.querySelector("#main > section > div > div.col-lg-4 > div > div.card-body.pb-0 > div > div:nth-child(5) > h4 > a")
+              secondrelatedgamename.innerHTML = steamjson.nodes[4].name
+              secondrelatedgamelikeanddislike = document.querySelector("#main > section > div > div.col-lg-4 > div > div.card-body.pb-0 > div > div:nth-child(5) > p")
+              secondrelatedgamelikeanddislike.innerHTML = steamjson.nodes[4].positive_ratings + " like" + " | " + steamjson.nodes[4].negative_ratings + " dislike"
+              
+              let tableCard = document.querySelector("#main > section > div > div.col-lg-8 > div > div.col-12 > div > div");
+              table = document.createElement("table")
+              table.setAttribute("class","table table-borderless datatable")
+              tableCard.appendChild(table)
+              thead = document.createElement("thead")
+              tablehead = document.createElement("tr")
+
+              th1 = document.createElement("th")
+              th2 = document.createElement("th")
+              th3 = document.createElement("th")
+              th4 = document.createElement("th")
+              th5 = document.createElement("th")
+              th1.setAttribute("scope","col")
+              th2.setAttribute("scope","col")
+              th3.setAttribute("scope","col")
+              th4.setAttribute("scope","col")
+              th5.setAttribute("scope","col")
+              th1.innerHTML = "#ID"
+              th2.innerHTML = "Name"
+              th3.innerHTML = "Reviewers"
+              th4.innerHTML = "Price"
+              th5.innerHTML = "Goodrate"
+              tablehead.appendChild(th1)
+              tablehead.appendChild(th2)
+              tablehead.appendChild(th3)
+              tablehead.appendChild(th4)
+              tablehead.appendChild(th5)
+              thead.appendChild(tablehead)
+              table.appendChild(thead)
+              
+              myTablebody = document.createElement("tbody")
+
+              for (var i=0;i<50;i++)
+              { 
+                tr = document.createElement("tr")
+                td1 = document.createElement("td")
+                td2 = document.createElement("td")
+                td3 = document.createElement("td")
+                td4 = document.createElement("td")
+                td5 = document.createElement("td")
+                td1.innerHTML = steamjson.nodes[i].id
+                td2.innerHTML = steamjson.nodes[i].name
+                td3.innerHTML = steamjson.nodes[i].positive_ratings + steamjson.nodes[i].negative_ratings
+                td4.innerHTML = steamjson.nodes[i].price
+                td5.innerHTML = steamjson.nodes[i].goodrate.toFixed(2) + " %"
+                tr.appendChild(td1)
+                tr.appendChild(td2)
+                tr.appendChild(td3)
+                tr.appendChild(td4)
+                tr.appendChild(td5)
+                myTablebody.appendChild(tr)
+              }
+
+              table.appendChild(myTablebody)
+              console.log(tableCard)
+
+
+
+          }
+      };
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,1654 @@
+{
+    "nodes": [
+        {
+            "name": "Counter-Strike: Global Offensive",
+            "coordinates": [
+                -5.695380687713623,
+                13.585264205932617
+            ],
+            "x": -5.695380687713623,
+            "y": 13.585264205932617,
+            "id": "730",
+            "genres": "Action",
+            "price": 0.0,
+            "positive_ratings": 2644404,
+            "negative_ratings": 402313,
+            "developer": "Valve;Hidden Path Entertainment",
+            "publisher": "Valve",
+            "platforms": "windows;mac;linux",
+            "average_playtime": 22494,
+            "allgenres": "Action;Free to Play",
+            "goodrate": 0.8679519627192155,
+            "symbolSize": 45,
+            "category": 0
+        },
+        {
+            "name": "Sniper Elite 4",
+            "coordinates": [
+                -6.15053129196167,
+                13.342049598693848
+            ],
+            "x": -6.15053129196167,
+            "y": 13.342049598693848,
+            "id": "312660",
+            "genres": "Action",
+            "price": 39.99,
+            "positive_ratings": 10885,
+            "negative_ratings": 1910,
+            "developer": "Rebellion",
+            "publisher": "Rebellion",
+            "platforms": "windows",
+            "average_playtime": 522,
+            "allgenres": "Action;Adventure",
+            "goodrate": 0.8507229386479094,
+            "symbolSize": 45,
+            "category": 3
+        },
+        {
+            "name": "Offensive Combat: Redux!",
+            "coordinates": [
+                -6.059686183929443,
+                13.561897277832031
+            ],
+            "x": -6.059686183929443,
+            "y": 13.561897277832031,
+            "id": "622170",
+            "genres": "Action",
+            "price": 8.99,
+            "positive_ratings": 217,
+            "negative_ratings": 116,
+            "developer": "Three Gates AB",
+            "publisher": "Three Gates AB;SlapShot Games, LLC",
+            "platforms": "windows",
+            "average_playtime": 28,
+            "allgenres": "Action",
+            "goodrate": 0.6516516516516516,
+            "symbolSize": 45,
+            "category": 1
+        },
+        {
+            "name": "Red Crucible®: Firestorm",
+            "coordinates": [
+                -4.492240905761719,
+                15.102667808532715
+            ],
+            "x": -4.492240905761719,
+            "y": 15.102667808532715,
+            "id": "298240",
+            "genres": "Action",
+            "price": 0.0,
+            "positive_ratings": 4795,
+            "negative_ratings": 3264,
+            "developer": "Rocketeer Games Studio, LLC",
+            "publisher": "Rocketeer Games Studio, LLC",
+            "platforms": "windows;mac",
+            "average_playtime": 232,
+            "allgenres": "Action;Casual;Free to Play;Indie;Simulation",
+            "goodrate": 0.5949869710882243,
+            "symbolSize": 45,
+            "category": 0
+        },
+        {
+            "name": "QUAKE II Mission Pack: Ground Zero",
+            "coordinates": [
+                -2.5821826457977295,
+                15.590840339660645
+            ],
+            "x": -2.5821826457977295,
+            "y": 15.590840339660645,
+            "id": "2340",
+            "genres": "Action",
+            "price": 2.49,
+            "positive_ratings": 54,
+            "negative_ratings": 33,
+            "developer": "Rogue Entertainment",
+            "publisher": "id Software",
+            "platforms": "windows",
+            "average_playtime": 1,
+            "allgenres": "Action",
+            "goodrate": 0.6206896551724138,
+            "symbolSize": 45,
+            "category": 1
+        },
+        {
+            "name": "QUAKE Mission Pack 2: Dissolution of Eternity",
+            "coordinates": [
+                -2.5822081565856934,
+                15.590898513793945
+            ],
+            "x": -2.5822081565856934,
+            "y": 15.590898513793945,
+            "id": "9030",
+            "genres": "Action",
+            "price": 2.49,
+            "positive_ratings": 143,
+            "negative_ratings": 15,
+            "developer": "Rogue Entertainment",
+            "publisher": "id Software",
+            "platforms": "windows",
+            "average_playtime": 88,
+            "allgenres": "Action",
+            "goodrate": 0.9050632911392406,
+            "symbolSize": 45,
+            "category": 1
+        },
+        {
+            "name": "Argo",
+            "coordinates": [
+                -7.32261323928833,
+                12.392126083374023
+            ],
+            "x": -7.32261323928833,
+            "y": 12.392126083374023,
+            "id": "530700",
+            "genres": "Action",
+            "price": 0.0,
+            "positive_ratings": 4438,
+            "negative_ratings": 4973,
+            "developer": "Bohemia Interactive",
+            "publisher": "Bohemia Interactive",
+            "platforms": "windows",
+            "average_playtime": 182,
+            "allgenres": "Action;Free to Play",
+            "goodrate": 0.4715758155350122,
+            "symbolSize": 30,
+            "category": 0
+        },
+        {
+            "name": "Smashbox Arena",
+            "coordinates": [
+                -6.812264442443848,
+                12.671490669250488
+            ],
+            "x": -6.812264442443848,
+            "y": 12.671490669250488,
+            "id": "530350",
+            "genres": "Action",
+            "price": 14.99,
+            "positive_ratings": 382,
+            "negative_ratings": 15,
+            "developer": "BigBox VR, Inc.",
+            "publisher": "BigBox VR, Inc.",
+            "platforms": "windows",
+            "average_playtime": 30,
+            "allgenres": "Action;Indie",
+            "goodrate": 0.9622166246851386,
+            "symbolSize": 30,
+            "category": 2
+        },
+        {
+            "name": "BRAIN / OUT",
+            "coordinates": [
+                -7.353229999542236,
+                12.360573768615723
+            ],
+            "x": -7.353229999542236,
+            "y": 12.360573768615723,
+            "id": "578310",
+            "genres": "Action",
+            "price": 0.0,
+            "positive_ratings": 8343,
+            "negative_ratings": 2112,
+            "developer": "Desertkun",
+            "publisher": "Desertkun",
+            "platforms": "windows;mac;linux",
+            "average_playtime": 1433,
+            "allgenres": "Action;Free to Play;Indie;Massively Multiplayer",
+            "goodrate": 0.7979913916786227,
+            "symbolSize": 30,
+            "category": 0
+        },
+        {
+            "name": "Strike Vector EX",
+            "coordinates": [
+                -5.302886962890625,
+                18.728515625
+            ],
+            "x": -5.302886962890625,
+            "y": 18.728515625,
+            "id": "476360",
+            "genres": "Action",
+            "price": 8.99,
+            "positive_ratings": 473,
+            "negative_ratings": 86,
+            "developer": "Ragequit Corporation",
+            "publisher": "Ragequit Corporation",
+            "platforms": "windows",
+            "average_playtime": 0,
+            "allgenres": "Action;Indie",
+            "goodrate": 0.8461538461538461,
+            "symbolSize": 30,
+            "category": 1
+        },
+        {
+            "name": "Alien Breed 2: Assault",
+            "coordinates": [
+                -3.159093141555786,
+                18.400508880615234
+            ],
+            "x": -3.159093141555786,
+            "y": 18.400508880615234,
+            "id": "22650",
+            "genres": "Action",
+            "price": 6.99,
+            "positive_ratings": 478,
+            "negative_ratings": 226,
+            "developer": "Team17 Digital Ltd",
+            "publisher": "Team17 Digital Ltd",
+            "platforms": "windows",
+            "average_playtime": 96,
+            "allgenres": "Action",
+            "goodrate": 0.6789772727272727,
+            "symbolSize": 30,
+            "category": 1
+        },
+        {
+            "name": "RUNNING WITH RIFLES",
+            "coordinates": [
+                -5.070140838623047,
+                18.112030029296875
+            ],
+            "x": -5.070140838623047,
+            "y": 18.112030029296875,
+            "id": "270150",
+            "genres": "Action",
+            "price": 10.99,
+            "positive_ratings": 5254,
+            "negative_ratings": 745,
+            "developer": "Osumia Games",
+            "publisher": "Osumia Games",
+            "platforms": "windows;mac;linux",
+            "average_playtime": 97,
+            "allgenres": "Action;Indie",
+            "goodrate": 0.8758126354392399,
+            "symbolSize": 30,
+            "category": 2
+        },
+        {
+            "name": "Grimoire: Manastorm",
+            "coordinates": [
+                -5.26886510848999,
+                18.83324432373047
+            ],
+            "x": -5.26886510848999,
+            "y": 18.83324432373047,
+            "id": "335430",
+            "genres": "Action",
+            "price": 0.0,
+            "positive_ratings": 715,
+            "negative_ratings": 317,
+            "developer": "Omniconnection",
+            "publisher": "Omniconnection",
+            "platforms": "windows",
+            "average_playtime": 192,
+            "allgenres": "Action;Free to Play;Indie",
+            "goodrate": 0.6928294573643411,
+            "symbolSize": 30,
+            "category": 0
+        },
+        {
+            "name": "Gun Club VR",
+            "coordinates": [
+                -3.8036608695983887,
+                15.469731330871582
+            ],
+            "x": -3.8036608695983887,
+            "y": 15.469731330871582,
+            "id": "691320",
+            "genres": "Action",
+            "price": 15.49,
+            "positive_ratings": 157,
+            "negative_ratings": 31,
+            "developer": "The Binary Mill",
+            "publisher": "The Binary Mill",
+            "platforms": "windows",
+            "average_playtime": 869,
+            "allgenres": "Action;Indie;Simulation",
+            "goodrate": 0.8351063829787234,
+            "symbolSize": 30,
+            "category": 2
+        },
+        {
+            "name": "CityBattle | Virtual Earth",
+            "coordinates": [
+                -6.536051273345947,
+                17.009679794311523
+            ],
+            "x": -6.536051273345947,
+            "y": 17.009679794311523,
+            "id": "611020",
+            "genres": "Action",
+            "price": 0.0,
+            "positive_ratings": 830,
+            "negative_ratings": 425,
+            "developer": "LLC RIKOR IMT",
+            "publisher": "LLC RIKOR IMT",
+            "platforms": "windows",
+            "average_playtime": 0,
+            "allgenres": "Action;Free to Play;Massively Multiplayer",
+            "goodrate": 0.6613545816733067,
+            "symbolSize": 30,
+            "category": 0
+        },
+        {
+            "name": "S.K.I.L.L. - Special Force 2 (Shooter)",
+            "coordinates": [
+                -6.528768062591553,
+                17.01066017150879
+            ],
+            "x": -6.528768062591553,
+            "y": 17.01066017150879,
+            "id": "286940",
+            "genres": "Action",
+            "price": 0.0,
+            "positive_ratings": 7344,
+            "negative_ratings": 3553,
+            "developer": "Dragonfly GF Co., LTD",
+            "publisher": "Gameforge 4D GmbH",
+            "platforms": "windows",
+            "average_playtime": 934,
+            "allgenres": "Action;Adventure;Free to Play;Sports;Strategy",
+            "goodrate": 0.6739469578783152,
+            "symbolSize": 30,
+            "category": 0
+        },
+        {
+            "name": "Insurgency: Sandstorm",
+            "coordinates": [
+                -3.847836971282959,
+                14.826197624206543
+            ],
+            "x": -3.847836971282959,
+            "y": 14.826197624206543,
+            "id": "581320",
+            "genres": "Action",
+            "price": 25.99,
+            "positive_ratings": 12858,
+            "negative_ratings": 3933,
+            "developer": "New World Interactive",
+            "publisher": "Focus Home Interactive",
+            "platforms": "windows",
+            "average_playtime": 1425,
+            "allgenres": "Action",
+            "goodrate": 0.7657673753796677,
+            "symbolSize": 30,
+            "category": 3
+        },
+        {
+            "name": "BLOCKADE 3D",
+            "coordinates": [
+                -55.386322021484375,
+                5.474134922027588
+            ],
+            "x": -55.386322021484375,
+            "y": 5.474134922027588,
+            "id": "302830",
+            "genres": "Action",
+            "price": 0.0,
+            "positive_ratings": 15821,
+            "negative_ratings": 11583,
+            "developer": "Novalink",
+            "publisher": "Novalink",
+            "platforms": "windows",
+            "average_playtime": 499,
+            "allgenres": "Action;Free to Play;Early Access",
+            "goodrate": 0.5773244781783681,
+            "symbolSize": 30,
+            "category": 0
+        },
+        {
+            "name": "QUAKE Mission Pack 1: Scourge of Armagon",
+            "coordinates": [
+                -2.5829765796661377,
+                15.591201782226562
+            ],
+            "x": -2.5829765796661377,
+            "y": 15.591201782226562,
+            "id": "9040",
+            "genres": "Action",
+            "price": 2.49,
+            "positive_ratings": 205,
+            "negative_ratings": 13,
+            "developer": "Ritual Entertainment",
+            "publisher": "id Software",
+            "platforms": "windows",
+            "average_playtime": 129,
+            "allgenres": "Action",
+            "goodrate": 0.9403669724770642,
+            "symbolSize": 30,
+            "category": 1
+        },
+        {
+            "name": "Painkiller Overdose",
+            "coordinates": [
+                -2.6216745376586914,
+                15.637465476989746
+            ],
+            "x": -2.6216745376586914,
+            "y": 15.637465476989746,
+            "id": "3270",
+            "genres": "Action",
+            "price": 4.49,
+            "positive_ratings": 429,
+            "negative_ratings": 137,
+            "developer": "Mindware Studios",
+            "publisher": "THQ Nordic",
+            "platforms": "windows",
+            "average_playtime": 270,
+            "allgenres": "Action",
+            "goodrate": 0.7579505300353356,
+            "symbolSize": 30,
+            "category": 1
+        },
+        {
+            "name": "Exodus from the Earth ",
+            "coordinates": [
+                -2.5631980895996094,
+                15.656980514526367
+            ],
+            "x": -2.5631980895996094,
+            "y": 15.656980514526367,
+            "id": "12390",
+            "genres": "Action",
+            "price": 10.99,
+            "positive_ratings": 51,
+            "negative_ratings": 44,
+            "developer": "Parallax Arts Studio",
+            "publisher": "Strategy First",
+            "platforms": "windows",
+            "average_playtime": 0,
+            "allgenres": "Action",
+            "goodrate": 0.5368421052631579,
+            "symbolSize": 30,
+            "category": 2
+        },
+        {
+            "name": "Legendary",
+            "coordinates": [
+                -2.669062376022339,
+                15.965985298156738
+            ],
+            "x": -2.669062376022339,
+            "y": 15.965985298156738,
+            "id": "16730",
+            "genres": "Action",
+            "price": 1.69,
+            "positive_ratings": 1095,
+            "negative_ratings": 1000,
+            "developer": "Spark Unlimited",
+            "publisher": "SouthPeak Games",
+            "platforms": "windows",
+            "average_playtime": 90,
+            "allgenres": "Action",
+            "goodrate": 0.522673031026253,
+            "symbolSize": 30,
+            "category": 1
+        },
+        {
+            "name": "theHunter Classic",
+            "coordinates": [
+                -10.816280364990234,
+                10.272905349731445
+            ],
+            "x": -10.816280364990234,
+            "y": 10.272905349731445,
+            "id": "253710",
+            "genres": "Action",
+            "price": 0.0,
+            "positive_ratings": 11440,
+            "negative_ratings": 15403,
+            "developer": "Expansive Worlds;Avalanche Studios",
+            "publisher": "Expansive Worlds;Avalanche Studios",
+            "platforms": "windows",
+            "average_playtime": 163,
+            "allgenres": "Action;Adventure;Free to Play;Simulation;Sports",
+            "goodrate": 0.42618187236896027,
+            "symbolSize": 15,
+            "category": 0
+        },
+        {
+            "name": "Modern Combat Versus",
+            "coordinates": [
+                -9.551133155822754,
+                9.977551460266113
+            ],
+            "x": -9.551133155822754,
+            "y": 9.977551460266113,
+            "id": "723780",
+            "genres": "Action",
+            "price": 0.0,
+            "positive_ratings": 2012,
+            "negative_ratings": 1610,
+            "developer": "Gameloft",
+            "publisher": "Gameloft",
+            "platforms": "windows",
+            "average_playtime": 556,
+            "allgenres": "Action;Adventure;Free to Play",
+            "goodrate": 0.5554942020982883,
+            "symbolSize": 15,
+            "category": 0
+        },
+        {
+            "name": "Gear Up",
+            "coordinates": [
+                -11.20296859741211,
+                9.765244483947754
+            ],
+            "x": -11.20296859741211,
+            "y": 9.765244483947754,
+            "id": "214420",
+            "genres": "Action",
+            "price": 0.0,
+            "positive_ratings": 6383,
+            "negative_ratings": 2225,
+            "developer": "Doctor Entertainment AB",
+            "publisher": "Doctor Entertainment AB",
+            "platforms": "windows;mac;linux",
+            "average_playtime": 139,
+            "allgenres": "Action;Free to Play;Indie",
+            "goodrate": 0.7415195167286245,
+            "symbolSize": 15,
+            "category": 0
+        },
+        {
+            "name": "Prey: Typhon Hunter",
+            "coordinates": [
+                -5.491966247558594,
+                4.022465705871582
+            ],
+            "x": -5.491966247558594,
+            "y": 4.022465705871582,
+            "id": "741820",
+            "genres": "Action",
+            "price": 0.0,
+            "positive_ratings": 106,
+            "negative_ratings": 206,
+            "developer": "Arkane Studios",
+            "publisher": "Bethesda Softworks",
+            "platforms": "windows",
+            "average_playtime": 0,
+            "allgenres": "Action",
+            "goodrate": 0.33974358974358976,
+            "symbolSize": 15,
+            "category": 0
+        },
+        {
+            "name": "Kingspray Graffiti VR",
+            "coordinates": [
+                -10.467475891113281,
+                53.02674865722656
+            ],
+            "x": -10.467475891113281,
+            "y": 53.02674865722656,
+            "id": "471660",
+            "genres": "Simulation",
+            "price": 10.99,
+            "positive_ratings": 201,
+            "negative_ratings": 26,
+            "developer": "Andrew Bates;Craig Bentick;Nolan Cunningham;Onomis",
+            "publisher": "Infectious Ape",
+            "platforms": "windows",
+            "average_playtime": 0,
+            "allgenres": "Simulation",
+            "goodrate": 0.8854625550660793,
+            "symbolSize": 15,
+            "category": 2
+        },
+        {
+            "name": "Unearned Bounty",
+            "coordinates": [
+                -11.214098930358887,
+                9.723664283752441
+            ],
+            "x": -11.214098930358887,
+            "y": 9.723664283752441,
+            "id": "377260",
+            "genres": "Action",
+            "price": 0.0,
+            "positive_ratings": 196,
+            "negative_ratings": 100,
+            "developer": "Extrokold Games",
+            "publisher": "Extrokold Games",
+            "platforms": "windows;mac;linux",
+            "average_playtime": 9,
+            "allgenres": "Action;Free to Play;Indie",
+            "goodrate": 0.6621621621621622,
+            "symbolSize": 15,
+            "category": 0
+        },
+        {
+            "name": "Spellsworn",
+            "coordinates": [
+                -11.24268627166748,
+                9.736116409301758
+            ],
+            "x": -11.24268627166748,
+            "y": 9.736116409301758,
+            "id": "360620",
+            "genres": "Action",
+            "price": 0.0,
+            "positive_ratings": 692,
+            "negative_ratings": 106,
+            "developer": "Frogsong Studios AB",
+            "publisher": "Frogsong Studios AB",
+            "platforms": "windows;linux",
+            "average_playtime": 96,
+            "allgenres": "Action;Free to Play;Indie",
+            "goodrate": 0.8671679197994987,
+            "symbolSize": 15,
+            "category": 0
+        },
+        {
+            "name": "The Pirate: Caribbean Hunt",
+            "coordinates": [
+                -11.22386646270752,
+                9.809032440185547
+            ],
+            "x": -11.22386646270752,
+            "y": 9.809032440185547,
+            "id": "512470",
+            "genres": "Action",
+            "price": 0.0,
+            "positive_ratings": 2253,
+            "negative_ratings": 581,
+            "developer": "Home Net Games",
+            "publisher": "Home Net Games",
+            "platforms": "windows;mac;linux",
+            "average_playtime": 98,
+            "allgenres": "Action;Adventure;Free to Play;Indie;Simulation;Strategy",
+            "goodrate": 0.7949894142554693,
+            "symbolSize": 15,
+            "category": 0
+        },
+        {
+            "name": "IACTURA",
+            "coordinates": [
+                -5.258833885192871,
+                18.850717544555664
+            ],
+            "x": -5.258833885192871,
+            "y": 18.850717544555664,
+            "id": "512770",
+            "genres": "Action",
+            "price": 0.79,
+            "positive_ratings": 20,
+            "negative_ratings": 10,
+            "developer": "Merlin Beer",
+            "publisher": "Merlin Beer",
+            "platforms": "windows",
+            "average_playtime": 300,
+            "allgenres": "Action;Indie",
+            "goodrate": 0.6666666666666666,
+            "symbolSize": 15,
+            "category": 1
+        },
+        {
+            "name": "Madballs in Babo:Invasion ",
+            "coordinates": [
+                -5.064126491546631,
+                18.40707015991211
+            ],
+            "x": -5.064126491546631,
+            "y": 18.40707015991211,
+            "id": "25700",
+            "genres": "Indie",
+            "price": 3.99,
+            "positive_ratings": 198,
+            "negative_ratings": 38,
+            "developer": "Playbrains",
+            "publisher": "Playbrains",
+            "platforms": "windows;mac",
+            "average_playtime": 54,
+            "allgenres": "Indie",
+            "goodrate": 0.8389830508474576,
+            "symbolSize": 15,
+            "category": 1
+        },
+        {
+            "name": "HIVE: Altenum Wars",
+            "coordinates": [
+                -5.389205455780029,
+                19.08953094482422
+            ],
+            "x": -5.389205455780029,
+            "y": 19.08953094482422,
+            "id": "468330",
+            "genres": "Action",
+            "price": 7.99,
+            "positive_ratings": 46,
+            "negative_ratings": 16,
+            "developer": "Catness Game Studios",
+            "publisher": "Catness Game Studios",
+            "platforms": "windows",
+            "average_playtime": 0,
+            "allgenres": "Action;Indie",
+            "goodrate": 0.7419354838709677,
+            "symbolSize": 15,
+            "category": 1
+        },
+        {
+            "name": "Defenders of the Last Colony",
+            "coordinates": [
+                -5.279360771179199,
+                18.960067749023438
+            ],
+            "x": -5.279360771179199,
+            "y": 18.960067749023438,
+            "id": "326110",
+            "genres": "Action",
+            "price": 3.99,
+            "positive_ratings": 9,
+            "negative_ratings": 14,
+            "developer": "Knitted Pixels",
+            "publisher": "Knitted Pixels",
+            "platforms": "windows",
+            "average_playtime": 0,
+            "allgenres": "Action;Indie",
+            "goodrate": 0.391304347826087,
+            "symbolSize": 15,
+            "category": 1
+        },
+        {
+            "name": "Alien Breed 3: Descent",
+            "coordinates": [
+                -3.199519395828247,
+                18.40549087524414
+            ],
+            "x": -3.199519395828247,
+            "y": 18.40549087524414,
+            "id": "22670",
+            "genres": "Action",
+            "price": 6.99,
+            "positive_ratings": 242,
+            "negative_ratings": 90,
+            "developer": "Team17 Digital Ltd",
+            "publisher": "Team17 Digital Ltd",
+            "platforms": "windows",
+            "average_playtime": 1,
+            "allgenres": "Action",
+            "goodrate": 0.7289156626506024,
+            "symbolSize": 15,
+            "category": 1
+        },
+        {
+            "name": "Hyper Fighters",
+            "coordinates": [
+                -3.4129507541656494,
+                18.78038787841797
+            ],
+            "x": -3.4129507541656494,
+            "y": 18.78038787841797,
+            "id": "267960",
+            "genres": "Action",
+            "price": 2.09,
+            "positive_ratings": 96,
+            "negative_ratings": 313,
+            "developer": "Team 6 Studios",
+            "publisher": "Funbox Media Ltd",
+            "platforms": "windows",
+            "average_playtime": 0,
+            "allgenres": "Action",
+            "goodrate": 0.23471882640586797,
+            "symbolSize": 15,
+            "category": 1
+        },
+        {
+            "name": "Alien Shooter",
+            "coordinates": [
+                -4.357601165771484,
+                18.93437957763672
+            ],
+            "x": -4.357601165771484,
+            "y": 18.93437957763672,
+            "id": "33100",
+            "genres": "Action",
+            "price": 3.99,
+            "positive_ratings": 815,
+            "negative_ratings": 92,
+            "developer": "Sigma Team Inc.",
+            "publisher": "Sigma Team Inc.",
+            "platforms": "windows",
+            "average_playtime": 0,
+            "allgenres": "Action;Indie;RPG",
+            "goodrate": 0.898566703417861,
+            "symbolSize": 15,
+            "category": 1
+        },
+        {
+            "name": "Alien Breed: Impact",
+            "coordinates": [
+                -2.339578866958618,
+                18.181407928466797
+            ],
+            "x": -2.339578866958618,
+            "y": 18.181407928466797,
+            "id": "22610",
+            "genres": "Action",
+            "price": 6.99,
+            "positive_ratings": 776,
+            "negative_ratings": 307,
+            "developer": "Team17 Software Ltd. ",
+            "publisher": "Team17 Digital Ltd",
+            "platforms": "windows",
+            "average_playtime": 7,
+            "allgenres": "Action",
+            "goodrate": 0.716528162511542,
+            "symbolSize": 15,
+            "category": 1
+        },
+        {
+            "name": "Disputed Space",
+            "coordinates": [
+                -5.350781440734863,
+                18.641395568847656
+            ],
+            "x": -5.350781440734863,
+            "y": 18.641395568847656,
+            "id": "637410",
+            "genres": "Action",
+            "price": 1.69,
+            "positive_ratings": 53,
+            "negative_ratings": 26,
+            "developer": "ShilohGames",
+            "publisher": "ShilohGames",
+            "platforms": "windows;mac;linux",
+            "average_playtime": 0,
+            "allgenres": "Action;Indie",
+            "goodrate": 0.6708860759493671,
+            "symbolSize": 15,
+            "category": 1
+        },
+        {
+            "name": "Steel Storm: Burning Retribution",
+            "coordinates": [
+                -5.267174243927002,
+                18.585054397583008
+            ],
+            "x": -5.267174243927002,
+            "y": 18.585054397583008,
+            "id": "96200",
+            "genres": "Action",
+            "price": 11.39,
+            "positive_ratings": 181,
+            "negative_ratings": 115,
+            "developer": "Kot in Action Creative Artel",
+            "publisher": "Kot in Action Creative Artel",
+            "platforms": "windows;linux",
+            "average_playtime": 280,
+            "allgenres": "Action;Indie",
+            "goodrate": 0.6114864864864865,
+            "symbolSize": 15,
+            "category": 2
+        },
+        {
+            "name": "Front Mission Evolved",
+            "coordinates": [
+                -4.720551013946533,
+                17.84792709350586
+            ],
+            "x": -4.720551013946533,
+            "y": 17.84792709350586,
+            "id": "43000",
+            "genres": "Action",
+            "price": 7.99,
+            "positive_ratings": 481,
+            "negative_ratings": 310,
+            "developer": "Double Helix Games",
+            "publisher": "Square Enix",
+            "platforms": "windows",
+            "average_playtime": 312,
+            "allgenres": "Action",
+            "goodrate": 0.6080910240202275,
+            "symbolSize": 15,
+            "category": 1
+        },
+        {
+            "name": "The Little War",
+            "coordinates": [
+                -5.110223770141602,
+                18.58206558227539
+            ],
+            "x": -5.110223770141602,
+            "y": 18.58206558227539,
+            "id": "769080",
+            "genres": "Action",
+            "price": 4.79,
+            "positive_ratings": 20,
+            "negative_ratings": 9,
+            "developer": "Hexagons Studio",
+            "publisher": "Hexagons Studio",
+            "platforms": "windows",
+            "average_playtime": 0,
+            "allgenres": "Action",
+            "goodrate": 0.6896551724137931,
+            "symbolSize": 15,
+            "category": 1
+        },
+        {
+            "name": "Ballistic Overkill",
+            "coordinates": [
+                -3.685929775238037,
+                16.465206146240234
+            ],
+            "x": -3.685929775238037,
+            "y": 16.465206146240234,
+            "id": "296300",
+            "genres": "Action",
+            "price": 8.99,
+            "positive_ratings": 4645,
+            "negative_ratings": 1475,
+            "developer": "Aquiris Game Studio",
+            "publisher": "Aquiris Game Studio",
+            "platforms": "windows;mac;linux",
+            "average_playtime": 869,
+            "allgenres": "Action;Casual;Indie",
+            "goodrate": 0.7589869281045751,
+            "symbolSize": 15,
+            "category": 1
+        },
+        {
+            "name": "Red Crucible 2: Reborn",
+            "coordinates": [
+                -5.29298210144043,
+                18.905046463012695
+            ],
+            "x": -5.29298210144043,
+            "y": 18.905046463012695,
+            "id": "916930",
+            "genres": "Action",
+            "price": 15.49,
+            "positive_ratings": 298,
+            "negative_ratings": 175,
+            "developer": "Rocketeer Games Studio LLC",
+            "publisher": "Rocketeer Games Studio LLC",
+            "platforms": "windows;mac",
+            "average_playtime": 0,
+            "allgenres": "Action;Indie",
+            "goodrate": 0.6300211416490487,
+            "symbolSize": 15,
+            "category": 2
+        },
+        {
+            "name": "Freefall 3050AD",
+            "coordinates": [
+                -3.086111545562744,
+                16.36504364013672
+            ],
+            "x": -3.086111545562744,
+            "y": 16.36504364013672,
+            "id": "1002970",
+            "genres": "Action",
+            "price": 1.99,
+            "positive_ratings": 0,
+            "negative_ratings": 1,
+            "developer": "Total ArKade Software",
+            "publisher": "TAKS",
+            "platforms": "windows",
+            "average_playtime": 0,
+            "allgenres": "Action",
+            "goodrate": 0.0,
+            "symbolSize": 15,
+            "category": 1
+        },
+        {
+            "name": "Aim Hero",
+            "coordinates": [
+                -3.8561477661132812,
+                15.446948051452637
+            ],
+            "x": -3.8561477661132812,
+            "y": 15.446948051452637,
+            "id": "518030",
+            "genres": "Action",
+            "price": 3.99,
+            "positive_ratings": 2596,
+            "negative_ratings": 458,
+            "developer": "ProGames Studio",
+            "publisher": "ProGames Studio",
+            "platforms": "windows",
+            "average_playtime": 109,
+            "allgenres": "Action;Early Access",
+            "goodrate": 0.8500327439423707,
+            "symbolSize": 15,
+            "category": 1
+        },
+        {
+            "name": "BIOS",
+            "coordinates": [
+                -2.98234486579895,
+                16.471717834472656
+            ],
+            "x": -2.98234486579895,
+            "y": 16.471717834472656,
+            "id": "350600",
+            "genres": "Action",
+            "price": 10.99,
+            "positive_ratings": 123,
+            "negative_ratings": 63,
+            "developer": "PIXYUL",
+            "publisher": "PIXYUL",
+            "platforms": "windows",
+            "average_playtime": 42,
+            "allgenres": "Action;Indie",
+            "goodrate": 0.6612903225806451,
+            "symbolSize": 15,
+            "category": 2
+        },
+        {
+            "name": "Aim Master",
+            "coordinates": [
+                -3.0063068866729736,
+                16.579692840576172
+            ],
+            "x": -3.0063068866729736,
+            "y": 16.579692840576172,
+            "id": "915540",
+            "genres": "Action",
+            "price": 2.09,
+            "positive_ratings": 10,
+            "negative_ratings": 4,
+            "developer": "Sensitivity Elf",
+            "publisher": "HITCLE.COM",
+            "platforms": "windows",
+            "average_playtime": 0,
+            "allgenres": "Action",
+            "goodrate": 0.7142857142857143,
+            "symbolSize": 15,
+            "category": 1
+        },
+        {
+            "name": "Manhunter",
+            "coordinates": [
+                -2.9122025966644287,
+                16.475444793701172
+            ],
+            "x": -2.9122025966644287,
+            "y": 16.475444793701172,
+            "id": "302250",
+            "genres": "Action",
+            "price": 3.99,
+            "positive_ratings": 229,
+            "negative_ratings": 518,
+            "developer": "Silden",
+            "publisher": "KISS ltd",
+            "platforms": "windows",
+            "average_playtime": 110,
+            "allgenres": "Action",
+            "goodrate": 0.30655957161981257,
+            "symbolSize": 15,
+            "category": 1
+        },
+        {
+            "name": "Win Big Or Die",
+            "coordinates": [
+                -6.582421779632568,
+                16.998455047607422
+            ],
+            "x": -6.582421779632568,
+            "y": 16.998455047607422,
+            "id": "542120",
+            "genres": "Action",
+            "price": 0.0,
+            "positive_ratings": 22,
+            "negative_ratings": 5,
+            "developer": "Silver Legends",
+            "publisher": "Cacti Council",
+            "platforms": "windows",
+            "average_playtime": 0,
+            "allgenres": "Action;Free to Play",
+            "goodrate": 0.8148148148148148,
+            "symbolSize": 15,
+            "category": 0
+        },
+        {
+            "name": "Sniper Fury",
+            "coordinates": [
+                -6.6547465324401855,
+                16.967798233032227
+            ],
+            "x": -6.6547465324401855,
+            "y": 16.967798233032227,
+            "id": "591740",
+            "genres": "Action",
+            "price": 0.0,
+            "positive_ratings": 689,
+            "negative_ratings": 984,
+            "developer": "Gameloft",
+            "publisher": "Gameloft",
+            "platforms": "windows",
+            "average_playtime": 144,
+            "allgenres": "Action;Free to Play",
+            "goodrate": 0.4118350268977884,
+            "symbolSize": 15,
+            "category": 0
+        },
+        {
+            "name": "Transmissions: Element 120",
+            "coordinates": [
+                -6.594283103942871,
+                16.988542556762695
+            ],
+            "x": -6.594283103942871,
+            "y": 16.988542556762695,
+            "id": "365300",
+            "genres": "Action",
+            "price": 0.0,
+            "positive_ratings": 7916,
+            "negative_ratings": 501,
+            "developer": "Shokunin;Thomas M. Visser;Vincent Thiele",
+            "publisher": "Self Published",
+            "platforms": "windows;linux",
+            "average_playtime": 84,
+            "allgenres": "Action;Free to Play;Indie",
+            "goodrate": 0.9404776048473328,
+            "symbolSize": 15,
+            "category": 0
+        },
+        {
+            "name": "Insurgency",
+            "coordinates": [
+                -1.1254246234893799,
+                11.355857849121094
+            ],
+            "x": -1.1254246234893799,
+            "y": 11.355857849121094,
+            "id": "222880",
+            "genres": "Action",
+            "price": 6.99,
+            "positive_ratings": 92355,
+            "negative_ratings": 9570,
+            "developer": "New World Interactive",
+            "publisher": "New World Interactive",
+            "platforms": "windows;mac;linux",
+            "average_playtime": 712,
+            "allgenres": "Action;Indie;Strategy",
+            "goodrate": 0.9061074319352465,
+            "symbolSize": 15,
+            "category": 1
+        },
+        {
+            "name": "Pixel-Warfare: Pro",
+            "coordinates": [
+                -3.1828553676605225,
+                15.900829315185547
+            ],
+            "x": -3.1828553676605225,
+            "y": 15.900829315185547,
+            "id": "530240",
+            "genres": "Action",
+            "price": 0.79,
+            "positive_ratings": 53,
+            "negative_ratings": 31,
+            "developer": "Angel Iliev Hrisimov",
+            "publisher": "PIXELMAKER-2016 PLTD",
+            "platforms": "windows",
+            "average_playtime": 0,
+            "allgenres": "Action",
+            "goodrate": 0.6309523809523809,
+            "symbolSize": 15,
+            "category": 1
+        },
+        {
+            "name": "FPS Training",
+            "coordinates": [
+                -3.171442985534668,
+                16.546070098876953
+            ],
+            "x": -3.171442985534668,
+            "y": 16.546070098876953,
+            "id": "971460",
+            "genres": "Action",
+            "price": 3.99,
+            "positive_ratings": 27,
+            "negative_ratings": 12,
+            "developer": "Drago Software",
+            "publisher": "Drago Software",
+            "platforms": "windows",
+            "average_playtime": 0,
+            "allgenres": "Action",
+            "goodrate": 0.6923076923076923,
+            "symbolSize": 15,
+            "category": 1
+        },
+        {
+            "name": "MachineCraft",
+            "coordinates": [
+                -55.79975509643555,
+                5.216864585876465
+            ],
+            "x": -55.79975509643555,
+            "y": 5.216864585876465,
+            "id": "397100",
+            "genres": "Free to Play",
+            "price": 0.0,
+            "positive_ratings": 644,
+            "negative_ratings": 207,
+            "developer": "G2CREW",
+            "publisher": "G2CREW",
+            "platforms": "windows",
+            "average_playtime": 11,
+            "allgenres": "Free to Play;Indie;Simulation;Early Access",
+            "goodrate": 0.7567567567567568,
+            "symbolSize": 15,
+            "category": 0
+        },
+        {
+            "name": "Realm Royale",
+            "coordinates": [
+                -55.83465576171875,
+                5.339595794677734
+            ],
+            "x": -55.83465576171875,
+            "y": 5.339595794677734,
+            "id": "813820",
+            "genres": "Action",
+            "price": 0.0,
+            "positive_ratings": 17220,
+            "negative_ratings": 9825,
+            "developer": "Heroic Leap Games",
+            "publisher": "Hi-Rez Studios",
+            "platforms": "windows",
+            "average_playtime": 360,
+            "allgenres": "Action;Free to Play;Early Access",
+            "goodrate": 0.6367165834719911,
+            "symbolSize": 15,
+            "category": 0
+        },
+        {
+            "name": "Tactical Craft Online",
+            "coordinates": [
+                -55.830223083496094,
+                5.131270408630371
+            ],
+            "x": -55.830223083496094,
+            "y": 5.131270408630371,
+            "id": "415860",
+            "genres": "Free to Play",
+            "price": 0.0,
+            "positive_ratings": 572,
+            "negative_ratings": 592,
+            "developer": "Crematorium of Time",
+            "publisher": "Crematorium of Time",
+            "platforms": "windows",
+            "average_playtime": 39,
+            "allgenres": "Free to Play;Indie;Massively Multiplayer;RPG;Strategy;Early Access",
+            "goodrate": 0.49140893470790376,
+            "symbolSize": 15,
+            "category": 0
+        },
+        {
+            "name": "WARMODE",
+            "coordinates": [
+                -55.096519470214844,
+                5.78507661819458
+            ],
+            "x": -55.096519470214844,
+            "y": 5.78507661819458,
+            "id": "391460",
+            "genres": "Action",
+            "price": 0.0,
+            "positive_ratings": 8983,
+            "negative_ratings": 6166,
+            "developer": "Novalink",
+            "publisher": "Novalink",
+            "platforms": "windows",
+            "average_playtime": 75,
+            "allgenres": "Action;Free to Play;Early Access",
+            "goodrate": 0.5929764340880587,
+            "symbolSize": 15,
+            "category": 0
+        },
+        {
+            "name": "Medal of Honor™",
+            "coordinates": [
+                -2.8125481605529785,
+                15.972716331481934
+            ],
+            "x": -2.8125481605529785,
+            "y": 15.972716331481934,
+            "id": "47790",
+            "genres": "Action",
+            "price": 14.99,
+            "positive_ratings": 3209,
+            "negative_ratings": 1370,
+            "developer": "Electronic Arts",
+            "publisher": "Electronic Arts",
+            "platforms": "windows",
+            "average_playtime": 133,
+            "allgenres": "Action",
+            "goodrate": 0.7008080366892334,
+            "symbolSize": 15,
+            "category": 2
+        },
+        {
+            "name": "Frontlines™: Fuel of War™",
+            "coordinates": [
+                -2.6974587440490723,
+                15.926102638244629
+            ],
+            "x": -2.6974587440490723,
+            "y": 15.926102638244629,
+            "id": "9460",
+            "genres": "Action",
+            "price": 9.99,
+            "positive_ratings": 378,
+            "negative_ratings": 229,
+            "developer": "Kaos Studios",
+            "publisher": "THQ Nordic",
+            "platforms": "windows",
+            "average_playtime": 154,
+            "allgenres": "Action",
+            "goodrate": 0.6227347611202636,
+            "symbolSize": 15,
+            "category": 1
+        },
+        {
+            "name": "Painkiller Redemption",
+            "coordinates": [
+                -2.826903820037842,
+                16.014095306396484
+            ],
+            "x": -2.826903820037842,
+            "y": 16.014095306396484,
+            "id": "65560",
+            "genres": "Action",
+            "price": 4.49,
+            "positive_ratings": 206,
+            "negative_ratings": 196,
+            "developer": "Eggtooth Team",
+            "publisher": "THQ Nordic",
+            "platforms": "windows",
+            "average_playtime": 28,
+            "allgenres": "Action",
+            "goodrate": 0.5124378109452736,
+            "symbolSize": 15,
+            "category": 1
+        },
+        {
+            "name": "Chernobyl Commando",
+            "coordinates": [
+                -2.9123260974884033,
+                16.4757137298584
+            ],
+            "x": -2.9123260974884033,
+            "y": 16.4757137298584,
+            "id": "302240",
+            "genres": "Action",
+            "price": 6.99,
+            "positive_ratings": 95,
+            "negative_ratings": 352,
+            "developer": "Silden",
+            "publisher": "KISS ltd",
+            "platforms": "windows",
+            "average_playtime": 0,
+            "allgenres": "Action",
+            "goodrate": 0.21252796420581654,
+            "symbolSize": 15,
+            "category": 1
+        }
+    ],
+    "links": [
+        {
+            "source": "730",
+            "target": "312660"
+        },
+        {
+            "source": "730",
+            "target": "622170"
+        },
+        {
+            "source": "730",
+            "target": "298240"
+        },
+        {
+            "source": "730",
+            "target": "2340"
+        },
+        {
+            "source": "730",
+            "target": "9030"
+        },
+        {
+            "source": "312660",
+            "target": "530700"
+        },
+        {
+            "source": "312660",
+            "target": "530350"
+        },
+        {
+            "source": "312660",
+            "target": "578310"
+        },
+        {
+            "source": "622170",
+            "target": "476360"
+        },
+        {
+            "source": "622170",
+            "target": "22650"
+        },
+        {
+            "source": "622170",
+            "target": "270150"
+        },
+        {
+            "source": "622170",
+            "target": "335430"
+        },
+        {
+            "source": "298240",
+            "target": "691320"
+        },
+        {
+            "source": "298240",
+            "target": "611020"
+        },
+        {
+            "source": "298240",
+            "target": "286940"
+        },
+        {
+            "source": "298240",
+            "target": "581320"
+        },
+        {
+            "source": "298240",
+            "target": "302830"
+        },
+        {
+            "source": "2340",
+            "target": "9040"
+        },
+        {
+            "source": "2340",
+            "target": "3270"
+        },
+        {
+            "source": "2340",
+            "target": "12390"
+        },
+        {
+            "source": "2340",
+            "target": "16730"
+        },
+        {
+            "source": "530700",
+            "target": "253710"
+        },
+        {
+            "source": "530700",
+            "target": "723780"
+        },
+        {
+            "source": "530700",
+            "target": "214420"
+        },
+        {
+            "source": "530350",
+            "target": "741820"
+        },
+        {
+            "source": "530350",
+            "target": "471660"
+        },
+        {
+            "source": "578310",
+            "target": "377260"
+        },
+        {
+            "source": "578310",
+            "target": "360620"
+        },
+        {
+            "source": "578310",
+            "target": "512470"
+        },
+        {
+            "source": "476360",
+            "target": "512770"
+        },
+        {
+            "source": "476360",
+            "target": "25700"
+        },
+        {
+            "source": "476360",
+            "target": "468330"
+        },
+        {
+            "source": "476360",
+            "target": "326110"
+        },
+        {
+            "source": "22650",
+            "target": "22670"
+        },
+        {
+            "source": "22650",
+            "target": "267960"
+        },
+        {
+            "source": "22650",
+            "target": "33100"
+        },
+        {
+            "source": "22650",
+            "target": "22610"
+        },
+        {
+            "source": "270150",
+            "target": "637410"
+        },
+        {
+            "source": "270150",
+            "target": "96200"
+        },
+        {
+            "source": "270150",
+            "target": "43000"
+        },
+        {
+            "source": "270150",
+            "target": "769080"
+        },
+        {
+            "source": "270150",
+            "target": "296300"
+        },
+        {
+            "source": "335430",
+            "target": "916930"
+        },
+        {
+            "source": "691320",
+            "target": "1002970"
+        },
+        {
+            "source": "691320",
+            "target": "518030"
+        },
+        {
+            "source": "691320",
+            "target": "350600"
+        },
+        {
+            "source": "691320",
+            "target": "915540"
+        },
+        {
+            "source": "691320",
+            "target": "302250"
+        },
+        {
+            "source": "611020",
+            "target": "542120"
+        },
+        {
+            "source": "611020",
+            "target": "591740"
+        },
+        {
+            "source": "611020",
+            "target": "365300"
+        },
+        {
+            "source": "581320",
+            "target": "222880"
+        },
+        {
+            "source": "581320",
+            "target": "530240"
+        },
+        {
+            "source": "581320",
+            "target": "971460"
+        },
+        {
+            "source": "302830",
+            "target": "397100"
+        },
+        {
+            "source": "302830",
+            "target": "813820"
+        },
+        {
+            "source": "302830",
+            "target": "415860"
+        },
+        {
+            "source": "302830",
+            "target": "391460"
+        },
+        {
+            "source": "3270",
+            "target": "47790"
+        },
+        {
+            "source": "16730",
+            "target": "9460"
+        },
+        {
+            "source": "16730",
+            "target": "65560"
+        },
+        {
+            "source": "16730",
+            "target": "302240"
+        }
+    ],
+    "categories": [
+        {
+            "name": "Indie"
+        },
+        {
+            "name": "Action"
+        },
+        {
+            "name": "Simulation"
+        },
+        {
+            "name": "Free to Play"
+        }
+    ]
+}
