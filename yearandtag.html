@@ -237,7 +237,116 @@
 
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">Advanced Search</h5>          
+              <h5 class="card-title">Advanced Search</h5>
+              <div 
+                id = "top_game" 
+                class="echarts"
+                style =" min-height: 450px"></div>
+               <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+               <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts@5.3.1/dist/echarts.min.js"></script>
+               <!-- <script src="static/"></script> -->
+               <script type="text/javascript">
+                  // var ROOT_PATH ='https://cdn.jsdelivr.net/gh/apache/echarts-website@asf-site/examples';
+                  //var ROOT_PATH ='static\\firstchart.json';
+                  var chartDom = document.getElementById('top_game');
+                  var myChart = echarts.init(chartDom);
+                  var option;
+                  var app={};
+
+                  $.get(
+                      'static/firstchart.json',
+                      function (_rawData) {
+                            run(_rawData);
+                     }
+                  );
+                  function run(_rawData) {
+// var countries = ['Australia', 'Canada', 'China', 'Cuba', 'Finland', 'France', 'Germany', 'Iceland', 'India', 'Japan', 'North Korea', 'South Korea', 'New Zealand', 'Norway', 'Poland', 'Russia', 'Turkey', 'United Kingdom', 'United States'];
+                  const genres = [
+                    'Indie',
+                    'Action',
+                    'Casual',
+                    'Adventure',
+                    'Strategy',
+                    'RPG',
+                    'Puzzle',
+                    'FPS'
+                  ];
+                  const datasetWithFilters = [];
+                  const seriesList = [];
+                  echarts.util.each(genres, function (genre) {
+                  var datasetId = 'dataset_' + genre;
+                  datasetWithFilters.push({
+                      id: datasetId,
+                      fromDatasetId: 'dataset_raw',
+                      transform: {
+                          type: 'filter',
+                          config: {
+                              and: [
+                                      { dimension: 'Year', gte: 2003 },
+                                      { dimension: 'Genre', '=': genre }
+                                  ]
+                            }
+                        }
+                    });
+                          seriesList.push({
+                                type: 'line',
+                                datasetId: datasetId,
+                                showSymbol: false,
+                                name: genre,
+                                endLabel: {
+                                      show: true,
+                                      formatter: function (params) {
+                                        return params.value[1] + ': ' + params.value[0];
+                                      }
+                                  },
+                                labelLayout: {
+                                moveOverlap: 'shiftY'
+                                },
+                                emphasis: {
+                                  focus: 'series'
+                                },
+                                encode: {
+                                  x: 'Year',
+                                  y: 'Number'//,
+                                  // label: ['Genre', 'Number'],
+                                  // itemName: 'Year',
+                                  // tooltip: ['Number']
+                                }
+                      });
+                  });
+                  option = {
+                    animationDuration: 10000,
+                    dataset: [
+                              {
+                                id: 'dataset_raw',
+                                source: _rawData      
+                              },
+                    ...datasetWithFilters
+                    ],
+                    title: {
+                      text: 'Number of releases of each type of game per year'
+                    },
+                    tooltip: {
+                      order: 'valueDesc',
+                      trigger: 'axis'
+                    },
+                    xAxis: {
+                      type: 'category',
+                      nameLocation: 'middle'
+                    },
+                    yAxis: {
+                      name: 'Number'
+                    },
+                    grid: {
+                      right: 140
+                    },
+                    series: seriesList
+                    };
+                myChart.setOption(option);
+            }
+
+        //  option && myChart.setOption(option);
+          </script>          
             </div>
           </div>
 
