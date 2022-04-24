@@ -1,0 +1,137 @@
+{
+    "nodes": [
+        {
+            "id": "0",
+            "name": "Path Of Wuxia",
+            "tag": "RPG",
+            "symbolSize": 30,
+            "category": 0
+        },
+        {
+            "id": "1",
+            "name": "RPG Maker MZ",
+            "tag": "MOBA",
+            "symbolSize": 15,
+            "category": 0
+        },
+        {
+            "id": "2",
+            "name": "Company of Heroes 2",
+            "tag": "FPS",
+            "symbolSize": 15,
+            "category": 0
+        },
+        {
+            "id": "3",
+            "name": "Age of Empires II: Definitive Edition",
+            "tag": "SLG",
+            "symbolSize": 15,
+            "category": 0
+        },
+        {
+            "id": "4",
+            "name": "Ghostwire: Tokyo",
+            "tag": "LBS",
+            "symbolSize": 30,
+            "category": 1
+        },
+        {
+            "id": "5",
+            "name": "Journey",
+            "tag": "RCG",
+            "symbolSize": 15,
+            "category": 1
+        },
+        {
+            "id": "6",
+            "name": "Core Keeper",
+            "tag": "MSG",
+            "symbolSize": 15,
+            "category": 1
+        },
+        {
+            "id": "7",
+            "name": "Battlefield V",
+            "tag": "AVG/ADV",
+            "symbolSize": 15,
+            "category": 1
+        },
+        {
+            "id": "8",
+            "name": "Assassin's Creed® Odyssey",
+            "tag": "SPG",
+            "symbolSize": 30,
+            "category": 2
+        },
+        {
+            "id": "9",
+            "name": "THE KING OF FIGHTERS XV",
+            "tag": "RPG",
+            "symbolSize": 15,
+            "category": 2
+        },
+        {
+            "id": "10",
+            "name": "Sid Meier’s Civilization® VI",
+            "tag": "MOBA",
+            "symbolSize": 15,
+            "category": 2
+        },
+        {
+            "id": "11",
+            "name": "Resident Evil Village",
+            "tag": "FPS",
+            "symbolSize": 15,
+            "category": 2
+        }
+    ],
+    "links": [
+        {
+          "source": "1",
+          "target": "0"
+        },
+        {
+          "source": "2",
+          "target": "0"
+        },
+        {
+            "source": "3",
+            "target": "0"
+        },
+        {
+            "source": "5",
+            "target": "4"
+        },
+        {
+            "source": "6",
+            "target": "4"
+        },
+        {
+            "source": "7",
+            "target": "4"
+        },
+        {
+            "source": "9",
+            "target": "8"
+        },
+        {
+            "source": "10",
+            "target": "8"
+        }, 
+               {
+            "source": "11",
+            "target": "8"
+        }
+    ],
+    "categories":[
+        {
+            "name": "PART 1"
+        },
+        {
+            "name": "PART 2"
+        },
+        {
+            "name": "PART 3"
+        }
+    ]
+}

@@ -179,7 +179,7 @@
     <aside id="sidebar" class="sidebar">
       <ul class="sidebar-nav" id="sidebar-nav">
         <li class="nav-item">
-          <a class="nav-link collapsed" href="index.html">
+          <a class="nav-link collapsed" href="dashboard.html">
             <i class="bi bi-grid"></i>
             <span>Recommend Dashboard</span>
           </a>
@@ -193,22 +193,6 @@
           </a>
         </li>
         <!-- End gameinformation Nav -->
-
-        <li class="nav-item">
-          <a class="nav-link collapsed" href="relationshipmap.html">
-            <i class="bi bi-bar-chart"></i>
-            <span>Relationship Map</span>
-          </a>
-        </li>
-        <!-- End relationshipmap Nav -->
-
-        <li class="nav-item">
-          <a class="nav-link collapsed" href="topgame.html">
-            <i class="bi bi-menu-button-wide"></i>
-            <span>Top Game Map</span>
-          </a>
-        </li>
-        <!-- End topgame Nav -->
 
         <li class="nav-item">
           <a class="nav-link collapsed" href="yearandtag.html">
@@ -249,6 +233,13 @@
           </a>
         </li>
         <!-- End categoriescloud Nav -->
+
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="index.html">
+            <i class="bi bi-box-arrow-in-right"></i>
+            <span>Game input</span>
+          </a>
+        </li>
       </ul>
     </aside>
     <!-- End Sidebar-->
@@ -305,7 +296,7 @@
                         // [10.6, 101852, "Lemon Juice"],
                         // [32.7, 20112, "Walnut Brownie"],
                         [
-                          ["好评率", "平均游玩时间", "游戏"],
+                          ["goodrate", "average play time", "game"],
                           [97.3, 17612, "Counter-Strike"],
                           [93.8, 8495, "Team Fortress 2"],
                           [96.7, 1615, "Left 4 Dead 2"],
@@ -343,7 +334,7 @@
                         ],
                     },
                     grid: { containLabel: true },
-                    xAxis: { name: "平均游玩时间" },
+                    xAxis: { name: "averagePlayTime" },
                     yAxis: { type: "category" },
                     visualMap: {
                       orient: "horizontal",
@@ -362,9 +353,9 @@
                         type: "bar",
                         encode: {
                           // Map the "amount" column to X axis.
-                          x: "平均游戏时间",
+                          x: "averagePlayTime",
                           // Map the "product" column to Y axis
-                          y: "游戏",
+                          y: "game",
                         },
                       },
                     ],

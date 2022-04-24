@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Components / Accordion - NiceAdmin Bootstrap Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: NiceAdmin - v2.2.2
+  * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+
+    <div class="d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.png" alt="">
+        <span class="d-none d-lg-block">FIAT LUX</span>
+      </a>
+      <i class="bi bi-list toggle-sidebar-btn"></i>
+    </div><!-- End Logo -->
+
+    <div class="search-bar">
+      <form class="search-form d-flex align-items-center" method="POST" action="#">
+        <input type="text" name="query" placeholder="Search" title="Enter search keyword">
+        <button type="submit" title="Search"><i class="bi bi-search"></i></button>
+      </form>
+    </div><!-- End Search Bar -->
+
+    <nav class="header-nav ms-auto">
+      <ul class="d-flex align-items-center">
+
+        <li class="nav-item d-block d-lg-none">
+          <a class="nav-link nav-icon search-bar-toggle " href="#">
+            <i class="bi bi-search"></i>
+          </a>
+        </li>
+        <!-- End Search Icon -->
+        <li class="nav-item dropdown pe-3">
+          <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+            <!-- <img src="assets/img/profile-img.jpg" alt="Profile" class="rounded-circle"> -->
+            <span class="d-none d-md-block dropdown-toggle ps-2">Fiat Group</span>
+          </a><!-- End Profile Iamge Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+
+            <!-- <li class="dropdown-header">
+              <h6>Kevin Anderson</h6>
+              <span>Web Designer</span>
+            </li> -->
+
+            <!-- <li>
+              <hr class="dropdown-divider">
+            </li> -->
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="#">
+                <i class="bi bi-person"></i>
+                <span>Bonian Jia</span>
+              </a>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="#">
+                <i class="bi bi-person"></i>
+                <span>Jia Du</span>
+              </a>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="#">
+                <i class="bi bi-person"></i>
+                <span>Shanshan Zhu</span>
+              </a>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="#">
+                <i class="bi bi-person"></i>
+                <span>Miaomiao Lyu</span>
+              </a>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="#">
+                <i class="bi bi-person"></i>
+                <span>Jiecheng Lu</span>
+              </a>
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="#">
+                <i class="bi bi-person"></i>
+                <span>Xu Han</span>
+              </a>
+            </li>
+          </ul><!-- End Profile Dropdown Items -->
+        </li><!-- End Profile Nav -->
+
+      </ul>
+    </nav><!-- End Icons Navigation -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Sidebar ======= -->
+  <aside id="sidebar" class="sidebar">
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="dashboard.html">
+          <i class="bi bi-grid"></i>
+          <span>Recommend Dashboard</span>
+        </a>
+      </li><!-- End Dashoard Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link" href="gameinformation.html">
+          <i class="bi bi-layout-text-window-reverse"></i>
+          <span>Game Information</span>
+        </a>
+      </li><!-- End Blank Page Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="yearandtag.html">
+          <i class="bi bi-journal-text"></i>
+          <span>Year and Tag Map</span>
+        </a>
+      </li><!-- End yearandtag Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="producer.html">
+          <i class="bi bi-gem"></i>
+          <span>Producer Map</span>
+        </a>
+      </li><!-- End producer Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="comparison.html">
+          <i class="bi bi-card-list"></i>
+          <span>Comparison Map</span>
+        </a>
+      </li><!-- End comparison Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="averagetime.html">
+          <i class="bi bi-file-code"></i>
+          <span>Averagetime Map</span>
+        </a>
+      </li><!-- End averagetime Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="categoriescloud.html">
+          <i class="bi bi-bar-chart-line-fill"></i>
+          <span>Categoriescloud Map</span>
+        </a>
+      </li><!-- End categoriescloud Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="index.html">
+          <i class="bi bi-box-arrow-in-right"></i>
+          <span>Game input</span>
+        </a>
+      </li>
+    </ul>
+
+  </aside><!-- End Sidebar-->
+
+  <main id="main" class="main">
+
+    <div class="pagetitle">
+      <h1>Game Information</h1>
+      <nav>
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item active">Game Information</li>
+        </ol>
+      </nav>
+    </div><!-- End Page Title -->
+
+    <section class="section">
+      <div class="row">
+        <div class="col-lg-12">
+
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Advanced Search</h5>
+              <!-- Advanced Form Elements -->
+              <form>
+                <!-- game name -->
+                <div class="row mb-3">
+                  <label class="col-sm-2 col-form-label">Information search</label>
+                  <div class="col-sm-10">
+                    <div class="form-floating mb-3">
+                      <input type="text" class="form-control" id="floatingInput">
+                      <label for="floatingInput">Game Name</label>
+                    </div>
+                  </div>
+                </div>
+                <!-- age range -->
+                <div class="row mb-5">
+                  <label class="col-sm-2 col-form-label"></label>
+                  <div class="col-sm-10">
+                    <div>
+                      <label for="customRange1" class="form-label">release_year</label>
+                      <input type="range" class="form-range" id="customRange1" value="11">
+                    </div>
+                    <div>
+                      <label for="customRange2" class="form-label">required_age</label>
+                      <input type="range" class="form-range" min="0" max="20" step="1" id="customRange2" value="18">
+                    </div>
+                  </div>
+                </div>
+
+                <!-- input button -->
+                <div class="row mb-5">
+                  <label class="col-sm-2 col-form-label"></label>
+                    <div class="col-sm-10">
+                      <button type="button" class="btn btn-primary" onclick="selectText()">Submit Form</button>
+                    </div>
+                </div>
+
+                <!-- output information -->
+                <div class="row mb-5">
+                  <label class="col-sm-2 col-form-label">Output Information</label>
+                  <div class="col-sm-10">
+                    <div class="input-group mb-3">
+                      <span class="input-group-text" id="basic-addon1" style="background-color:aqua;">price</span>
+                      <span class="input-group-text" id="basic-addon1">prevous</span>
+                      <input id = "price1" type="text" class="form-control" placeholder="3.99" aria-label="Username" value="">
+                      <span class="input-group-text" id="basic-addon1">now</span>
+                      <input id = "price2" type="text" class="form-control" placeholder="10.74334" aria-label="Server" value="">
+                    </div>
+                    
+                    <div class="input-group mb-3">
+                      <span class="input-group-text" id="basic-addon1" style="background-color: aqua;">median_playtime</span>
+                      <span class="input-group-text" id="basic-addon1">previous</span>
+                      <input id = "median_playtime1" type="text" class="form-control" placeholder="34.0" aria-label="Username" value="">
+                      <span class="input-group-text" id="basic-addon1">now</span>
+                      <input id = "median_playtime2" type="text" class="form-control" placeholder="406.63138" aria-label="Server" value="">
+                    </div>
+
+                    <div class="input-group mb-3">
+                      <span class="input-group-text" id="basic-addon1" style="background-color: aqua;">negative_ratings</span>
+                      <span class="input-group-text" id="basic-addon1">previous</span>
+                      <input id = "negative_ratings1" type="text" class="form-control" placeholder="398.0" aria-label="Username" value="">
+                      <span class="input-group-text" id="basic-addon1">now</span>
+                      <input id = "negative_ratings2" type="text" class="form-control" placeholder="3119.6404" aria-label="Server" value="">
+                    </div>
+
+                    <div class="input-group mb-3">
+                      <span class="input-group-text" id="basic-addon1" style="background-color: aqua;">owners_top</span>
+                      <span class="input-group-text" id="basic-addon1">previous</span>
+                      <input id = "owners_top1" type="text" class="form-control" placeholder="10000000.0" aria-label="Username" value="">
+                      <span class="input-group-text" id="basic-addon1">now</span>
+                      <input id = "owners_top2" type="text" class="form-control" placeholder="168187.83" aria-label="Server" value="">
+                    </div>
+
+                    <div class="input-group mb-3">
+                      <span class="input-group-text" id="basic-addon1" style="background-color: aqua;">positive_ratings</span>
+                      <span class="input-group-text" id="basic-addon1">previous</span>
+                      <input id = "positive_ratings1" type="text" class="form-control" placeholder="3416.0" aria-label="Username" value="">
+                      <span class="input-group-text" id="basic-addon1">now</span>
+                      <input id = "positive_ratings2" type="text" class="form-control" placeholder="25663.36" aria-label="Server" value="">
+                    </div>
+                  </div>
+                </div>
+
+              </form>
+              <!-- End General Form Elements -->            
+            </div>
+          </div>
+
+        </div>
+
+        <!-- <div class="col-lg-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Example Card</h5>
+              <p>This is an examle page with no contrnt. You can use it as a starter for your custom pages.</p>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <div class="copyright">
+      &copy; Copyright <strong><span>NiceAdmin</span></strong>. All Rights Reserved
+    </div>
+    <div class="credits">
+      <!-- All the links in the footer should remain intact. -->
+      <!-- You can delete the links only if you purchased the pro version. -->
+      <!-- Licensing information: https://bootstrapmade.com/license/ -->
+      <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/ -->
+      Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/chart.js/chart.min.js"></script>
+  <script src="assets/vendor/echarts/echarts.min.js"></script>
+  <script src="assets/vendor/quill/quill.min.js"></script>
+  <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+  <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <script>
+    function selectText() {
+      var game = document.getElementById('floatingInput');
+      var release_year = document.getElementById('customRange1');
+      var required_age = document.getElementById('customRange2');
+      // console.log(release_year.value)
+      // console.log(required_age.value)
+      // console.log(game.value)
+      var rqjson = {"name":game.value,
+                    "change":{"release_year":release_year.value,"required_age":required_age.value},
+                    "require":["price","positive_ratings","negative_ratings","median_playtime","owners_bot","owners_top"]
+                    }
+      //console.log(rqjson)
+      var httpRequest = new XMLHttpRequest();//第一步：创建需要的对象
+      httpRequest.open('POST', "http://118.195.235.177:5000/whatif", true); //第二步：打开连接
+      httpRequest.setRequestHeader("Content-type","application/json;charset=UTF-8");//设置请求头 注：post方式必须设置请求头（在建立连接后设置请求头）
+      httpRequest.send(JSON.stringify(rqjson));//发送请求 将情头体写在send中
+      /**
+       * 获取数据后的处理程序
+       */
+      httpRequest.onreadystatechange = function () {//请求后的回调接口，可将请求成功后要执行的程序写在其中
+          if (httpRequest.readyState == 4 && httpRequest.status == 200) {//验证请求是否发送成功
+              var json = httpRequest.responseText;//获取到服务端返回的数据
+              console.log(json);
+              resjson = JSON.parse(json)
+              //console.log(resjson.result.price[0])
+              price1 = document.getElementById("price1")
+              price2 = document.getElementById("price2")
+              price1.value = resjson.result.price[0]
+              price2.value = resjson.result.price[1]
+
+              median_playtime1 = document.getElementById("median_playtime1")
+              median_playtime2 = document.getElementById("median_playtime2")
+              median_playtime1.value = resjson.result.median_playtime[0]
+              median_playtime2.value = resjson.result.median_playtime[1]
+
+              negative_ratings1 = document.getElementById("negative_ratings1")
+              negative_ratings2 = document.getElementById("negative_ratings2")
+              negative_ratings1.value = resjson.result.negative_ratings[0]
+              negative_ratings2.value = resjson.result.negative_ratings[1]
+
+              owners_top1 = document.getElementById("owners_top1")
+              owners_top2 = document.getElementById("owners_top2")
+              owners_top1.value = resjson.result.owners_top[0]
+              owners_top2.value = resjson.result.owners_top[1]
+
+              positive_ratings1 = document.getElementById("positive_ratings1")
+              positive_ratings2 = document.getElementById("positive_ratings2")
+              positive_ratings1.value = resjson.result.positive_ratings[0]
+              positive_ratings2.value = resjson.result.positive_ratings[1]
+              
+            }
+      };
+    }
+  </script>
+</body>
+
+</html>

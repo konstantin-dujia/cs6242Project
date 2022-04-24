@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ECharts</title>
+    <!-- 引入 echarts.js -->
+    <!-- 这里是加载刚下好的echarts.min.js，注意路径 -->
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.3.1/dist/echarts.min.js"></script>
+</head>
+<!-- 待解决问题：x轴的label如果太长，会不显示 -->
+<body>
+    <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+    <div id="main"></div>
+    <script type="text/javascript">
+       var myChart=echarts.init(document.getElementById("main"),null,{
+           width:1000,
+           height:400
+       });
+       var option={
+           xAxis: {
+                type: 'category',
+                data: ['Category1', 'Category2', 'Category3', 'Category4', 'Category5', 'Category6', 'Category7']
+            },
+           yAxis: {
+                type: 'value'
+            },
+           series: [
+                {
+                    data: [
+                      120,
+                      {
+                        value: 300,
+                        itemStyle: {
+                        color: '#a90000'
+                        }
+                      },
+                      150,
+                      80,
+                      70,
+                      110,
+                      130
+                    ],
+                    type: 'bar'
+                }
+            ]
+       };
+       myChart.setOption(option);   
+    </script>
+</body>
+</html>

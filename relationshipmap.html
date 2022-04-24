@@ -154,7 +154,7 @@
     <ul class="sidebar-nav" id="sidebar-nav">
 
       <li class="nav-item">
-        <a class="nav-link collapsed" href="index.html">
+        <a class="nav-link collapsed" href="dashboard.html">
           <i class="bi bi-grid"></i>
           <span>Recommend Dashboard</span>
         </a>
@@ -166,20 +166,6 @@
           <span>Game Information</span>
         </a>
       </li><!-- End gameinformation Nav -->
-
-      <li class="nav-item">
-        <a class="nav-link" href="relationshipmap.html">
-          <i class="bi bi-bar-chart"></i>
-          <span>Relationship Map</span>
-        </a>
-      </li><!-- End relationshipmap Nav -->
-
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="topgame.html">
-          <i class="bi bi-menu-button-wide"></i>
-          <span>Top Game Map</span>
-        </a>
-      </li><!-- End topgame Nav -->
 
       <li class="nav-item">
         <a class="nav-link collapsed" href="yearandtag.html">
@@ -215,6 +201,13 @@
           <span>Categoriescloud Map</span>
         </a>
       </li><!-- End categoriescloud Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="index.html">
+          <i class="bi bi-box-arrow-in-right"></i>
+          <span>Game input</span>
+        </a>
+      </li>
     </ul>
 
   </aside><!-- End Sidebar-->
@@ -339,7 +332,25 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script>
+    var loc = location.href;
+    var n1 = loc.length;
+    var n2 = loc.indexOf('=');
+    var txt = decodeURI(loc.substr(n2+1,n1-n2));
+    console.log(txt)
 
+    var httpRequest = new XMLHttpRequest();//第一步：创建需要的对象
+    httpRequest.open('POST', "http://118.195.235.177:5001/register", true); //第二步：打开连接
+    httpRequest.setRequestHeader("Content-type","application/json;charset=UTF-8");//设置请求头 注：post方式必须设置请求头（在建立连接后设置请求头）
+    httpRequest.send(JSON.stringify(txt));//发送请求 将情头体写在send中
+    httpRequest.onreadystatechange = function () {
+      if (httpRequest.readyState == 4 && httpRequest.status == 200) {
+        var json = httpRequest.responseText;
+        resjson = JSON.parse(json);
+        console.log(resjson);
+      }
+    }
+  </script>
 </body>
 
 </html>
